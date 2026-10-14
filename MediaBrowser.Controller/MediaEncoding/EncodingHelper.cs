@@ -4499,10 +4499,9 @@ namespace MediaBrowser.Controller.MediaEncoding
             /* Make main filters for video stream */
             var mainFilters = new List<string>();
 
-            mainFilters.Add(GetOverwriteColorPropertiesParam(state, doTonemap));
-
             if (isSwDecoder)
             {
+                mainFilters.Add(GetOverwriteColorPropertiesParam(state, doTonemap));
                 // INPUT sw surface(memory)
                 // sw deint
                 if (doDeintH2645)
@@ -4791,10 +4790,9 @@ namespace MediaBrowser.Controller.MediaEncoding
             /* Make main filters for video stream */
             var mainFilters = new List<string>();
 
-            mainFilters.Add(GetOverwriteColorPropertiesParam(state, doTonemap));
-
             if (isSwDecoder)
             {
+                mainFilters.Add(GetOverwriteColorPropertiesParam(state, doTonemap));
                 // INPUT sw surface(memory)
                 // sw deint
                 if (doDeintH2645)
@@ -5120,10 +5118,9 @@ namespace MediaBrowser.Controller.MediaEncoding
             /* Make main filters for video stream */
             var mainFilters = new List<string>();
 
-            mainFilters.Add(GetOverwriteColorPropertiesParam(state, doTonemap));
-
             if (isSwDecoder)
             {
+                mainFilters.Add(GetOverwriteColorPropertiesParam(state, doTonemap));
                 // INPUT sw surface(memory)
                 // sw deint
                 if (doDeintH2645)
